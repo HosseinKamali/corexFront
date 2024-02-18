@@ -1,0 +1,36 @@
+.wrapperFormPage {
+  background-image: url("https://corexmarket.com/wp-content/uploads/2024/02/20_soft_gradient_background_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1996146_o-1.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  
+}
+
+.wrapperFormPage .logo {
+  width: 150px;
+  height: 70px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.wrapperFormPage .logo img {
+  width: 100%;
+  margin-top: -20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin-right: 100px;
+  margin-left: 40px;
+}
+@media screen and (min-width: 1300px) {
+  .container {
+  }
+}
+@media screen and (max-width: 768px) {
+}

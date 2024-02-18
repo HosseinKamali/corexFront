@@ -1,0 +1,20 @@
+.wrapperFinalStage {
+  background-image: url("https://s3-alpha-sig.figma.com/img/5c0f/af6a/be40059ee109814fea6cba8ea9ed40a3?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jUUpSTMes070WJbkeMIYM~Nrrs632jsnd-eJ9tqYxqqQoEvBnkLRYbSD8UBdHCBtNZ3HGyyWnbupLYMDW-gG2mfS89ALnSwRJLqSn8a7-HLpLc9u2F7mphYmuNc0vFVHUvpp1VQj-Y5gT3F~bw369kl6qbPLXAL0JzUsgzYkRdevyhl7oUUpK4FiORURCWbNkRjJTYVpct9vN~8fgo4hTk3RB7G9TAju7qBm974ZE5RrZuvawtWSUISgqvtfz2G3fyTEmBTDYtnVKJjDuA5J8IAIxbdzX7zMKoSnoG3TJq9hicQ2gxQg1TnHgVmwN-Dn82vg1qRrBWCQ6fF9IgnBSQ__");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(252, 252, 252);
+}
+.containerStep{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  
+  
+}

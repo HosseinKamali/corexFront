@@ -1,0 +1,93 @@
+.wrpperSideBar {
+  background-image: url("https://s3-alpha-sig.figma.com/img/f18d/a814/0fe91f4823984118a3fdfe71cbc25c67?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f6YqcUggYlAG5qTBVmEU5b8m2TBAuUl2ntuF~HiHI0EgEv-aOA7-kLAlYBSX89uawGmjvHkfqmpwvkqibUnLWAhN1cdhcia4zYRWDa7PKTi0C5hQKk7QNzikbxuywfNZCm3ErK41ss9lBDhVKOloYgM917y10u6m3-3mtv8jrIzsEhwWiqP3ggfYqZWWTitWmezwXvU1alBXq4S~2kxl4jpPbeQVpUc2MoOoBQ6H7NH9ZNBw7TvfwaazRzM9keSYIMmQbMxh7oeb3vYVNA8uXMNYJs8kDjNTNqHFnY85ZwUMqhxF-24rv4trKEzOh4t4muVVnP8avpNA2Dd36PEEAQ__");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 550px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 2px 47.599998474121094px 30px rgba(0, 0, 0, 0.81);
+}
+.btnHolder {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: end;
+}
+.btnHolder button {
+  font-size: 20px;
+  background: none;
+  padding: 10px 5px;
+  position: relative;
+}
+
+.btnHolder button a {
+  color: rgb(254, 254, 254);
+  padding: 10px 26px;
+  font-weight: 500;
+}
+.btnHolder button .member {
+  color: rgb(234, 237, 239);
+  font-size: 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.596);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 10px;
+  top: 0;
+  right: -102px;
+  transition: all 0.7s;
+}
+.btnHolder button .notMember {
+  color: rgb(234, 237, 239);
+  font-size: 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.596);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 10px;
+  top: 0;
+  right: -89px;
+  transition: all 0.7s;
+}
+.notAnythings {
+  display: none;
+}
+
+.activeBar {
+  background-color: rgba(97, 182, 114) !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 0.5s;
+  
+}
+
+
+@media screen and (min-width: 1300px) {
+  .wrpperSideBar {
+    height: 800px;
+    width: 700px;
+  }
+  .btnHolder {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .notMember {
+    display: none;
+  }
+  .member {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrpperSideBar {
+    display: none;
+  }
+}
+
+

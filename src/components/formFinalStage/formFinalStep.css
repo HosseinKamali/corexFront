@@ -1,0 +1,16 @@
+.digitFinalStep{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form.digitFinalStep input{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgba(56, 56, 56, 0.524);
+    color: rgb(212, 212, 212);
+    box-shadow: 0px 0px 6px 1px white;
+    border-radius: 3px;
+}

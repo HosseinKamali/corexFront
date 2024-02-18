@@ -1,0 +1,67 @@
+.wrapperFormLogin {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  }
+  .headerLogin {
+    text-align: center;
+  }
+  
+  form .form-control {
+    margin: 10px 10px;
+    position: relative;
+  }
+  form .form-control input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  
+  form .form-check {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .form-check small {
+    margin: 0 5px;
+  }
+  
+  .wrapperFormLogin form .btnLogin {
+    text-align: center;
+  }
+  .wrapperFormLogin form .btnLogin a {
+   display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .wrapperFormLogin form .btnLogin .btnSubmit {
+    padding: 12px 70px;
+    border-radius: 10px;
+    background-color:rgba(151, 151, 151, 1);
+    color: rgb(231, 231, 231);
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .wrapperFormLogin form .btnLogin button:hover {
+    opacity: 0.8;
+  }
+  .wrapperFormLogin form p{
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    
+  }
+  .eye{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+    
+  }
