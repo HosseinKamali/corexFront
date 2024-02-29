@@ -1,0 +1,38 @@
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 17px 29px 40px 10px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 128, 0, 0.813);
+  
+}
+.news ul {
+  width: 330px;
+  height: 340px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.news ul li {
+  margin: 10px 0;
+}
+/* کاستم کردن اسکرول با border */
+::-webkit-scrollbar {
+  width: 10px; /* عرض اسکرول بار */
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid #f1f1f1; /* border پس زمینه اسکرول بار */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* رنگ پس زمینه اسکرول بار */
+  border-radius: 5px; /* شکل گرد اسکرول بار */
+}

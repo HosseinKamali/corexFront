@@ -1,0 +1,27 @@
+
+.user{
+    margin-top: 10px;
+    text-align: center;
+}
+.userPhoto{
+    display: flex;
+    width: 200px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.userPhoto img{
+    width: 25%;
+    height: 100%;
+    border-radius: 50%;
+}
+.userPhoto p{
+margin-left: 5px;
+}
+
+.overview{
+    padding: 12px 50px;
+    background: rgba(13, 75, 37, 1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

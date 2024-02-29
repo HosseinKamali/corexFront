@@ -1,0 +1,24 @@
+.wrapperSidebar{
+   
+    position: fixed;
+    width: 200px;
+   
+}
+.navbarMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    
+    height: 400px;
+}
+.icon{
+    display: flex;
+   align-items: center;
+    width: 160px;
+    
+}
+.icon span{
+    margin: 0 10px;
+}

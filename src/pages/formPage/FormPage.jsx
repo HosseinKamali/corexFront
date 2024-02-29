@@ -1,7 +1,9 @@
 
+
 import SideBarForm from "../../components/sideBar/SideBarForm";
-import "./formPage.css";
 import LinkPages from "../linksLoginSignUp/LinkLoginSignUp";
+import "./formPage.css";
+
 
 const FormPage = () => {
 

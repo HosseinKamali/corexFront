@@ -4,12 +4,13 @@ import FormSignUp from "../../components/formSignUp/FormSignUp";
 
 
 
+
 const LinkPages = () => {
     return ( 
         <Routes>
             <Route path="/login" element={<FormLogin/>}/>
             <Route path="/signUp" element={<FormSignUp/>}/>
-            </Routes>
+        </Routes>
      );
 }
  

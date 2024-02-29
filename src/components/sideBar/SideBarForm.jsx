@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./sideBarForm.css";
 import { Link } from "react-router-dom";
 
+
 const SideBarForm = () => {
   const [activeItem, setActiveItem] = useState("login");
 
@@ -13,7 +14,7 @@ const SideBarForm = () => {
     <div className="wrpperSideBar poppins-extrabold">
       <div className="btnHolder">
       
-
+     
 
         <button
           onClick={() => handleClick("signUp")}

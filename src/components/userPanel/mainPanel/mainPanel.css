@@ -1,0 +1,67 @@
+.mainPanel {
+  width: 700px;
+  height: 550px;
+  background: rgba(205, 204, 204, 0.486);
+  
+  
+  border-radius: 15px;
+  box-shadow: 17px 29px 40px 10px rgba(0, 0, 0, 0.25);
+}
+.mainHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  width: 25%;
+  margin-top: 30px;
+  box-shadow: 9px 7px 35.29999923706055px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 6px;
+  padding: 8px 20px;
+  background: rgba(255, 255, 255, 0.42);
+}
+.card .flagOne {
+  width: 20px;
+  height: 20px;
+}
+.card .flagOne img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainFooter{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.mainFooter .card{
+  width: 42%;
+  height: 160px;
+  background-color: rgba(200, 200, 200, 0.58);
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+.price{
+  text-align: center;
+  font-size: 35px;
+}
+.bgGreen{
+  background-color: green!important;
+}

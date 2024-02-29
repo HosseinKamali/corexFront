@@ -1,0 +1,26 @@
+.panelPage {
+    background-image: url("https://s3-alpha-sig.figma.com/img/acd6/5dd6/385c480e516cd32c21b3036f99d026d1?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hVBhVfc2rcps6O~B5hUA38eUDCyxLX1NaIOeRFu5a81D9cLi0sgPwdkmkObgy9a41iLRaRpTrU8S--JGf9lX0PVnkZGYRtiJb3ZMNS5MXJLEbTWay24gxJcJWUSzWmW4xxoIovSfBwoPoFAHSKO5pnEViYwiW5b9EzD9U40iH87YCIyU8mdD9NK9x1tGhDYurEn3-veDhhHp5IzCowYhvV31rnwqIX2yV54nvO7-T1hjAIUgjP6Y9kRgy0ee7VFUKn3wzaSxJoUDOMvDpRlqiQc-EGO7Hqif20Bikmtj2U6TrWIBoP9lwHhpL9DY87BrY-OVYAsTofahprM3KUcooQ__");
+    background-color: aqua;
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    position: relative;
+    z-index: 1; 
+    overflow: hidden;
+  }
+  
+  .panelPage::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(51, 156, 51, 0.356);
+      z-index: -1; 
+
+  }
+ 
+
+  
